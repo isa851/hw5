@@ -11,6 +11,7 @@ export const Header = () => {
 
     const handlerOpen =() => {
         setOpen(!open)
+        // open === false ? setOPen(true) : setOpen(false)
     }
 
     return (

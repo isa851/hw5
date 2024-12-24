@@ -29,7 +29,7 @@
 }
 
 .description{
-    width: 100%; 
+    width: 295px; 
     margin-top: 16px;
 }
 
@@ -61,4 +61,5 @@
     margin-top: 8px;
     font-weight: 700;
     margin-bottom: 10px;
+
 }

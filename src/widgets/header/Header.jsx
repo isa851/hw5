@@ -24,9 +24,9 @@ export const Header = () => {
 
             {
              open === true ? (<div className={`pageLinks`}>
-                <Link to={'/'}><p>Home page</p></Link>
-                <Link to={'/category'}><p>Category page</p></Link>
-                <Link to={'/cart'}><p>Cart page</p></Link>
+                <Link onClick={handlerOpen} to={'/'}><p>Home page</p></Link>
+                <Link onClick={handlerOpen} to={'/category'}><p>Category page</p></Link>
+                <Link onClick={handlerOpen} to={'/cart'}><p>Cart page</p></Link>
             </div>
             ) : ''   
             }
